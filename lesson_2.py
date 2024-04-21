@@ -42,7 +42,7 @@ def merge_dicts(dict1, dict2):
     merged_dict.update(dict2)
     return merged_dict
 
-def union_of_sets(set1, set2):
+def union_sets(set1, set2):
     """"Приймає дві множини і повертає їхнє об'єднання."""
     return set1.union(set2)
 
@@ -50,7 +50,7 @@ def is_subset(set1, set2):
     """"Перевіряє, чи є одна множина підмножиною іншої."""
     return set1.issubset(set2)
 
-def check_even_odd(number):
+def check_paired_unpaired(number):
     """"Приймає число і виводить "Парне", якщо число парне, і "Непарне", якщо непарне."""
     if number % 2 == 0:
         print("Парне")
