@@ -43,7 +43,7 @@ def merge_dicts(dict1, dict2):
     return merged_dict
 
 def union_of_sets(set1, set2):
-    """"Напишіть функцію, яка приймає дві множини і повертає їхнє об'єднання."""
+    """"Приймає дві множини і повертає їхнє об'єднання."""
     return set1.union(set2)
 
 def is_subset(set1, set2):
